@@ -25,3 +25,11 @@
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
   }
+
+  .profile{
+    text-align: center;
+  }
+
+  a:visited {
+    text-decoration: line-through;
+}
