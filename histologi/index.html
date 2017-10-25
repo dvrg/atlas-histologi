@@ -338,5 +338,12 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./../assets/ie10-viewport-bug-workaround.js.download"></script>
     <script src="./../assets/ie-emulation-modes-warning.js.download"></script>
+    <!--Algolia-->
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script>
+    var algoliasearch = require('algoliasearch');
 
+    var client = algoliasearch("9G1TNF7KC8", "21c1974b6aaa7933182b867746074f8f");
+    var index = client.initIndex('dev_atlas');
+    </script>
 </body></html>
