@@ -1,0 +1,107 @@
+[
+  {
+   "title"        : "Serebelum",
+   "category"     : "Sistem Saraf",
+   "index"        : 10
+  },
+  {
+   "title"        : "Serebelum",
+   "category"     : "Medula Spinalis",
+   "index"        : 11
+  },
+  {
+   "title"        : "Jantung",
+   "category"     : "Sistem Kardiovaskular",
+   "index"        : 20
+  },
+  {
+   "title"        : "Arteri",
+   "category"     : "Sistem Kardiovaskular",
+   "index"        : 21
+  },
+  {
+   "title"        : "Vena",
+   "category"     : "Sistem Kardiovaskular",
+   "index"        : 22
+  },
+  {
+   "title"        : "Kulit",
+   "category"     : "Sistem Integumen",
+   "index"        : 31
+  },
+  {
+   "title"        : "Lingua",
+   "category"     : "Sistem Penceranaan",
+   "index"        : 41
+  },
+  {
+   "title"        : "Esofagus",
+   "category"     : "Sistem Penceranaan",
+   "index"        : 42
+  },
+  {
+   "title"        : "Lambung",
+   "category"     : "Sistem Penceranaan",
+   "index"        : 43
+  },
+  {
+   "title"        : "Usus Halus",
+   "category"     : "Sistem Penceranaan",
+   "index"        : 44
+  },
+  {
+   "title"        : "Usus Besar",
+   "category"     : "Sistem Penceranaan",
+   "index"        : 45
+  },
+  {
+   "title"        : "Hati",
+   "category"     : "Sistem Penceranaan",
+   "index"        : 46
+  },
+  {
+   "title"        : "Trakea",
+   "category"     : "Sistem Pernafasan",
+   "index"        : 51
+  },
+  {
+   "title"        : "Paru",
+   "category"     : "Sistem Pernafasan",
+   "index"        : 52
+  },
+  {
+   "title"        : "Testis",
+   "category"     : "Sistem Reproduksi Jantan",
+   "index"        : 61
+  },
+  {
+   "title"        : "Epididimis",
+   "category"     : "Sistem Reproduksi Jantan",
+   "index"        : 62
+  },
+  {
+   "title"        : "Vas Deferens",
+   "category"     : "Sistem Reproduksi Jantan",
+   "index"        : 63
+  },
+  {
+   "title"        : "Penis",
+   "category"     : "Sistem Reproduksi Jantan",
+   "index"        : 64
+  },
+  {
+   "title"        : "Ovarium",
+   "category"     : "Sistem Reproduksi Betina",
+   "index"        : 71
+  },
+  {
+   "title"        : "Tuba Fallopii",
+   "category"     : "Sistem Reproduksi Betina",
+   "index"        : 72
+  },
+  {
+   "title"        : "Uterus",
+   "category"     : "Sistem Reproduksi Betina",
+   "index"        : 73
+  },
+]
