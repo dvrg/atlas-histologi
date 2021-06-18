@@ -1,361 +1,409 @@
 <!DOCTYPE html>
 <!-- saved from url=(0081)https://getbootstrap.com/docs/4.0/getting-started/introduction/#important-globals -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<!--Rubah disini-->
-<title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--Rubah disini-->
+  <title>
     Sistem Saraf · Medula Spinalis
-</title>
+  </title>
 
 
-<!-- Meta -->
-<!--Rubah disini-->
-<meta name="description" content="Sistem Saraf Medula Spinalis">
-<meta name="author" content="Laela Umi Khasanah">
+  <!-- Meta -->
+  <!--Rubah disini-->
+  <meta name="description" content="Sistem Saraf Medula Spinalis">
+  <meta name="author" content="Laela Umi Khasanah">
 
 
-<!-- Bootstrap core CSS -->
+  <!-- Bootstrap core CSS -->
 
-<style class="anchorjs"></style><link href="./../assets/bootstrap.min.css" rel="stylesheet">
+  <style class="anchorjs"></style>
+  <link href="./../assets/bootstrap.min.css" rel="stylesheet">
 
 
-<!-- Documentation extras -->
+  <!-- Documentation extras -->
 
-<link href="./../assets/docs.min.css" rel="stylesheet">
-<link rel="stylesheet" href="./../assets/custom.css">
+  <link href="./../assets/docs.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./../assets/custom.css">
 
-<!-- Favicons -->
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="icon" href="../favicon.ico">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" href="../favicon.ico">
 
-<!--Google Analytics-->
+  <!--Google Analytics-->
 
-<style>
-  p {
-    text-align: justify;;
-  }
-</style>
-<!-- at the end of the HEAD -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+  <style>
+    p {
+      text-align: justify;
+      ;
+    }
+  </style>
+  <!-- at the end of the HEAD -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
 
 </head>
-  <body class="bd-docs" data-spy="scroll" data-target=".bd-sidenav-active">
 
-    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
-      <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Bootstrap">
-        Atlas Histologi Hewan
-
-      </a>
-
-      <div class="navbar-nav-scroll">
-        <ul class="navbar-nav bd-navbar-nav flex-row">
-          <li class="nav-item">
-            <a class="nav-link " href="/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Bootstrap&#39;);">Beranda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="/histologi/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Docs&#39;);">Histologi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="/author.html" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Examples&#39;);">Penulis</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/references.html" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Themes&#39;);" >Referensi</a>
-          </li>
-        </ul>
-      </div>
-
-    </header>
-
-    <div class="container-fluid">
-      <div class="row flex-xl-nowrap">
-        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
-          <div class="bd-search d-flex align-items-center">
-            <span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input type="search" class="form-control ds-input" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-labelledby="search-input" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="ds-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0" style="position: absolute; top: 100%; z-index: 100; display: none; left: 0px; right: auto;"><div class="ds-dataset-1"></div></span></span>
-            <button class="btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs avigation">
-              <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path></svg>
-
-            </button>
-          </div>
-
-          <nav class="bd-links collapse" id="bd-docs-nav" style="">
-
-            <div class="bd-toc-item active">
-                <a class="bd-toc-link" href="/histologi/serebelum.html">
-                  Sistem Saraf
-                </a>
-
-                <ul class="nav bd-sidenav">
-
-                    <li class="">
-                      <a href="/histologi/serebelum.html">
-                        Serebelum
-                      </a>
-                    </li>
-
-                    <li class="active">
-                      <a href="/histologi/medula_spinalis.html">
-                        Medula Spinalis
-                      </a>
-                    </li>
-
-                </ul>
-
-              </div>
-
-              <div class="bd-toc-item active">
-                  <a class="bd-toc-link" href="/histologi/jantung.html">
-                    Sistem Kardiovaskular
-                  </a>
-
-                  <ul class="nav bd-sidenav">
-
-                      <li class="">
-                        <a href="/histologi/jantung.html">
-                          Jantung
-                        </a>
-                      </li>
-
-                  </ul>
-
-                  <ul class="nav bd-sidenav">
-
-                      <li class="">
-                        <a href="/histologi/arteri.html">
-                          Arteri
-                        </a>
-                      </li>
-
-                  </ul>
-
-                  <ul class="nav bd-sidenav">
-
-                      <li class="">
-                        <a href="/histologi/vena.html">
-                          Vena
-                        </a>
-                      </li>
-
-                  </ul>
-
-                </div>
-
-            <div class="bd-toc-item active">
-                <a class="bd-toc-link" href="/histologi/kulit.html">
-                  Sistem Integumen
-                </a>
-
-                <ul class="nav bd-sidenav">
-
-                    <li class="">
-                      <a href="/histologi/kulit.html">
-                        Kulit
-                      </a>
-                    </li>
-
-                </ul>
-
-              </div>
-
-            <div class="bd-toc-item active">
-                <a class="bd-toc-link" href="/histologi/lingua.html">
-                  Sistem Pencernaan
-                </a>
-
-                <ul class="nav bd-sidenav">
-
-                    <li class="">
-                      <a href="/histologi/lingua.html">
-                        Lingua
-                      </a>
-                    </li>
-
-                    <li class="">
-                      <a href="/histologi/esofagus.html">
-                        Esofagus
-                      </a>
-                    </li>
-
-                    <li class="">
-                      <a href="/histologi/lambung.html">
-                        Lambung
-                      </a>
-                    </li>
-
-                    <li class="">
-                      <a href="/histologi/usus_halus.html">
-                        Usus Halus
-                      </a>
-                    </li>
-
-                    <li class="">
-                      <a href="/histologi/usus_besar.html">
-                        Usus Besar
-                      </a>
-                    </li>
-
-                    <li class="">
-                      <a href="/histologi/hati.html">
-                        Hati
-                      </a>
-                    </li>
-
-                </ul>
-
-              </div>
-
-
-            <div class="bd-toc-item active">
-                <a class="bd-toc-link" href="/histologi/trakea.html">
-                  Sistem Pernafasan
-                </a>
-
-                <ul class="nav bd-sidenav">
-
-                    <li class="">
-                      <a href="/histologi/trakea.html">
-                        Trakea
-                      </a>
-                    </li>
-
-                    <li class="">
-                      <a href="/histologi/paru.html">
-                        Paru
-                      </a>
-                    </li>
-
-                </ul>
-
-              </div>
-
-
-            <div class="bd-toc-item active">
-                <a class="bd-toc-link" href="/histologi/testis.html">
-                  Sistem Reproduksi
-                </a>
-
-                <ul class="nav bd-sidenav">
-
-                    <li class="">
-                      <a href="/histologi/testis.html">
-                        Sistem Reproduksi Jantan
-                      </a>
-
-                        <li class="ml-2 ">
-                          <a href="/histologi/testis.html">
-                            Testis
-                          </a>
-                        </li>
-
-                        <li class="ml-2">
-                          <a href="/histologi/epididimis.html">
-                            Epididimis
-                          </a>
-                        </li>
-
-                        <li class="ml-2 ">
-                          <a href="/histologi/vas_deferens.html">
-                            Vas Deferens
-                          </a>
-                        </li>
-
-                        <li class="ml-2 ">
-                          <a href="/histologi/penis.html">
-                            Penis
-                          </a>
-                        </li>
-
-                    </li>
-
-                    <li class="">
-                      <a href="/histologi/ovarium.html">
-                        Sistem Reproduksi Betina
-                      </a>
-
-                        <li class="ml-2 ">
-                          <a href="/histologi/ovarium.html">
-                            Ovarium
-                          </a>
-                        </li>
-
-                        <li class="ml-2 ">
-                          <a href="/histologi/tuba_fallopii.html">
-                            Tuba Fallopii
-                          </a>
-                        </li>
-
-                        <li class="ml-2 ">
-                          <a href="/histologi/uterus.html">
-                            Uterus
-                          </a>
-                        </li>
-
-                    </li>
-
-                </ul>
-
-              </div>
-
-          </nav>
-
-<a href="#">
-  <img id="flywheel" src="images/UIN-Sunan-Kalijaga.png" alt="" style="width: 20%;">
-</a>
-
+<body class="bd-docs" data-spy="scroll" data-target=".bd-sidenav-active">
+
+  <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+    <a class="navbar-brand mr-0 mr-md-2" href="../index.html" aria-label="Bootstrap">
+      Atlas Histologi Hewan
+
+    </a>
+
+    <div class="navbar-nav-scroll">
+      <ul class="navbar-nav bd-navbar-nav flex-row">
+        <li class="nav-item">
+          <a class="nav-link " href="../index.html"
+            onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Bootstrap&#39;);">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./index.html"
+            onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Docs&#39;);">Histologi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../author.html"
+            onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Examples&#39;);">Penulis</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../references.html"
+            onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Themes&#39;);">Referensi</a>
+        </li>
+      </ul>
+    </div>
+
+  </header>
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+        <div class="bd-search d-flex align-items-center">
+          <span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input
+              type="search" class="form-control ds-input" id="search-input" placeholder="Search..."
+              aria-label="Search for..." autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list"
+              aria-expanded="false" aria-labelledby="search-input" aria-owns="algolia-autocomplete-listbox-0" dir="auto"
+              style="position: relative; vertical-align: top;">
+            <pre aria-hidden="true"
+              style="position: absolute; visibility: hidden; white-space: pre; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre>
+            <span class="ds-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0"
+              style="position: absolute; top: 100%; z-index: 100; display: none; left: 0px; right: auto;">
+              <div class="ds-dataset-1"></div>
+            </span>
+          </span>
+          <button class="btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse"
+            data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false"
+            aria-label="Toggle docs avigation">
+            <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30"
+              focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
+                d="M4 7h22M4 15h22M4 23h22"></path>
+            </svg>
+
+          </button>
         </div>
 
-        <!--Isi Konten-->
+        <nav class="bd-links collapse" id="bd-docs-nav" style="">
 
-        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+          <div class="bd-toc-item active">
+            <a class="bd-toc-link" href="./serebelum.html">
+              Sistem Saraf
+            </a>
+
+            <ul class="nav bd-sidenav">
+
+              <li class="">
+                <a href="./serebelum.html">
+                  Serebelum
+                </a>
+              </li>
+
+              <li class="active">
+                <a href="./medula_spinalis.html">
+                  Medula Spinalis
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="bd-toc-item active">
+            <a class="bd-toc-link" href="./jantung.html">
+              Sistem Kardiovaskular
+            </a>
+
+            <ul class="nav bd-sidenav">
+
+              <li class="">
+                <a href="./jantung.html">
+                  Jantung
+                </a>
+              </li>
+
+            </ul>
+
+            <ul class="nav bd-sidenav">
+
+              <li class="">
+                <a href="./arteri.html">
+                  Arteri
+                </a>
+              </li>
+
+            </ul>
+
+            <ul class="nav bd-sidenav">
+
+              <li class="">
+                <a href="./vena.html">
+                  Vena
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="bd-toc-item active">
+            <a class="bd-toc-link" href="./kulit.html">
+              Sistem Integumen
+            </a>
+
+            <ul class="nav bd-sidenav">
+
+              <li class="">
+                <a href="./kulit.html">
+                  Kulit
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="bd-toc-item active">
+            <a class="bd-toc-link" href="./lingua.html">
+              Sistem Pencernaan
+            </a>
+
+            <ul class="nav bd-sidenav">
+
+              <li class="">
+                <a href="./lingua.html">
+                  Lingua
+                </a>
+              </li>
+
+              <li class="">
+                <a href="./esofagus.html">
+                  Esofagus
+                </a>
+              </li>
+
+              <li class="">
+                <a href="./lambung.html">
+                  Lambung
+                </a>
+              </li>
+
+              <li class="">
+                <a href="./usus_halus.html">
+                  Usus Halus
+                </a>
+              </li>
+
+              <li class="">
+                <a href="./usus_besar.html">
+                  Usus Besar
+                </a>
+              </li>
+
+              <li class="">
+                <a href="./hati.html">
+                  Hati
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <div class="bd-toc-item active">
+            <a class="bd-toc-link" href="./trakea.html">
+              Sistem Pernafasan
+            </a>
+
+            <ul class="nav bd-sidenav">
+
+              <li class="">
+                <a href="./trakea.html">
+                  Trakea
+                </a>
+              </li>
+
+              <li class="">
+                <a href="./paru.html">
+                  Paru
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <div class="bd-toc-item active">
+            <a class="bd-toc-link" href="./testis.html">
+              Sistem Reproduksi
+            </a>
+
+            <ul class="nav bd-sidenav">
+
+              <li class="">
+                <a href="./testis.html">
+                  Sistem Reproduksi Jantan
+                </a>
+
+              <li class="ml-2 ">
+                <a href="./testis.html">
+                  Testis
+                </a>
+              </li>
+
+              <li class="ml-2">
+                <a href="./epididimis.html">
+                  Epididimis
+                </a>
+              </li>
+
+              <li class="ml-2 ">
+                <a href="./vas_deferens.html">
+                  Vas Deferens
+                </a>
+              </li>
+
+              <li class="ml-2 ">
+                <a href="./penis.html">
+                  Penis
+                </a>
+              </li>
+
+              </li>
+
+              <li class="">
+                <a href="./ovarium.html">
+                  Sistem Reproduksi Betina
+                </a>
+
+              <li class="ml-2 ">
+                <a href="./ovarium.html">
+                  Ovarium
+                </a>
+              </li>
+
+              <li class="ml-2 ">
+                <a href="./tuba_fallopii.html">
+                  Tuba Fallopii
+                </a>
+              </li>
+
+              <li class="ml-2 ">
+                <a href="./uterus.html">
+                  Uterus
+                </a>
+              </li>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </nav>
+
+        <a href="#">
+          <img id="flywheel" src="images/UIN-Sunan-Kalijaga.png" alt="" style="width: 20%;">
+        </a>
+
+      </div>
+
+      <!--Isi Konten-->
+
+      <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
 
         <h1 class="bd-title">Medula Spinalis</h1>
 
         <figure class="figure bd-example">
-          <img src="./../images/1_sistem_saraf/B_medula_spinalis/1_medula_100_keterangan.png" class="img-fluid" alt="Responsive image">
-          <figcaption class="figure-caption text-center caption-margin">Medula Spinalis. Perbesaran 100x. H&E.</figcaption>
+          <img src="./../images/1_sistem_saraf/B_medula_spinalis/1_medula_100_keterangan.png" class="img-fluid"
+            alt="Responsive image">
+          <figcaption class="figure-caption text-center caption-margin">Medula Spinalis. Perbesaran 100x. H&E.
+          </figcaption>
         </figure>
 
-        <p><strong>Medula spinalis</strong> bagian posterior dibagi oleh <strong>septum mediana dorsalis</strong> yang membagi medula menjadi bagian kiri dan kanan, sedangkan pada bagian anteriornya terdapat celah longitudinal dalam yang disebut <strong>fisura mediana anterior</strong>. Seluruh medula dikelilingi <strong>pia mater</strong> yang meluas sampai ke dalam fisura mediana anterior.</p>
+        <p><strong>Medula spinalis</strong> bagian posterior dibagi oleh <strong>septum mediana dorsalis</strong> yang
+          membagi medula menjadi bagian kiri dan kanan, sedangkan pada bagian anteriornya terdapat celah longitudinal
+          dalam yang disebut <strong>fisura mediana anterior</strong>. Seluruh medula dikelilingi <strong>pia
+            mater</strong> yang meluas sampai ke dalam fisura mediana anterior.</p>
 
-        <p>Medula spinalis terdiri atas <strong>substansia grisea</strong> pada medula dan <strong>substansia alba</strong> pada korteks. Substansia grisea akan membentuk pola <strong>huruf H</strong>. Pada tiap belahan, kedua tungkai H disebut <strong>kornu anterior grisea</strong> dan <strong>posterior grisea</strong>.</p>
+        <p>Medula spinalis terdiri atas <strong>substansia grisea</strong> pada medula dan <strong>substansia
+            alba</strong> pada korteks. Substansia grisea akan membentuk pola <strong>huruf H</strong>. Pada tiap
+          belahan, kedua tungkai H disebut <strong>kornu anterior grisea</strong> dan <strong>posterior grisea</strong>.
+        </p>
 
         <figure class="figure bd-example">
-            <img src="./../images/1_sistem_saraf/B_medula_spinalis/2_medula_400_ket.png" class="img-fluid" alt="Responsive image">
-            <figcaption class="figure-caption text-center caption-margin">Saluran kanal dan Comisura grisea medula spinalis. Perbesaran 400x. H&E.</figcaption>
+          <img src="./../images/1_sistem_saraf/B_medula_spinalis/2_medula_400_ket.png" class="img-fluid"
+            alt="Responsive image">
+          <figcaption class="figure-caption text-center caption-margin">Saluran kanal dan Comisura grisea medula
+            spinalis. Perbesaran 400x. H&E.</figcaption>
         </figure>
 
-        <p>Di tengah medula spinalis terdapat <strong>comisura grisea</strong> dengan <strong>saluran sentral</strong> yang dilapisi <strong>sel ependim</strong>. Sel ependim adalah <strong>sel epitel kuboid</strong> dengan sedikit silia yang melapisi rongga saluran sentral. Comisura grisea adalah medula atau substansia alba yang terdapat di tengah medula spinalis menghubungkan kornu kanan dan kiri.</p>
+        <p>Di tengah medula spinalis terdapat <strong>comisura grisea</strong> dengan <strong>saluran sentral</strong>
+          yang dilapisi <strong>sel ependim</strong>. Sel ependim adalah <strong>sel epitel kuboid</strong> dengan
+          sedikit silia yang melapisi rongga saluran sentral. Comisura grisea adalah medula atau substansia alba yang
+          terdapat di tengah medula spinalis menghubungkan kornu kanan dan kiri.</p>
 
         <figure class="figure bd-example">
-            <img src="./../images/1_sistem_saraf/B_medula_spinalis/3_medula_400_keterangan.png" class="img-fluid" alt="Responsive image">
-            <figcaption class="figure-caption text-center caption-margin">Kornu anterior substansia grisea dan substansia alba medula spinalis. Perbesaran 400x.
-H&E.</figcaption>
+          <img src="./../images/1_sistem_saraf/B_medula_spinalis/3_medula_400_keterangan.png" class="img-fluid"
+            alt="Responsive image">
+          <figcaption class="figure-caption text-center caption-margin">Kornu anterior substansia grisea dan substansia
+            alba medula spinalis. Perbesaran 400x.
+            H&E.</figcaption>
         </figure>
 
-        <p>Substansia grisea mengandung badan-badan sel saraf. Neuron motorik yang berukuran besar terdapat pada kornu anterior. Substansia alba terbentuk dari serat-serat saraf yang mengelilingi substansia grisea.</p>
+        <p>Substansia grisea mengandung badan-badan sel saraf. Neuron motorik yang berukuran besar terdapat pada kornu
+          anterior. Substansia alba terbentuk dari serat-serat saraf yang mengelilingi substansia grisea.</p>
 
-        </main>
-
-      </div>
+      </main>
 
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="./../assets/popper.min.js.download"></script>
-    <script src="./../assets/bootstrap.min.js.download"></script>
-    <script src="./../assets/docs.min.js.download"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./../assets/ie10-viewport-bug-workaround.js.download"></script>
-    <script src="./../assets/ie-emulation-modes-warning.js.download"></script>
-    <!-- at the end of the BODY -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
-    <script type="text/javascript"> docsearch({
-    apiKey: '281d69873d867c3efc91b4488e67d269',
-    indexName: 'atlashistologi',
-    inputSelector: '#search-input',
-    debug: false // Set debug to true if you want to inspect the dropdown
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="./../assets/popper.min.js.download"></script>
+  <script src="./../assets/bootstrap.min.js.download"></script>
+  <script src="./../assets/docs.min.js.download"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="./../assets/ie10-viewport-bug-workaround.js.download"></script>
+  <script src="./../assets/ie-emulation-modes-warning.js.download"></script>
+  <!-- at the end of the BODY -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+  <script type="text/javascript"> docsearch({
+      apiKey: '281d69873d867c3efc91b4488e67d269',
+      indexName: 'atlashistologi',
+      inputSelector: '#search-input',
+      debug: false // Set debug to true if you want to inspect the dropdown
     });
-    </script>
-</body></html>
+  </script>
+</body>
+
+</html>
